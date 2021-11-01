@@ -8,7 +8,7 @@ class Stand{
         this.height = height;
         World.add(world, this.body);
 
-        //this.sling1 = loadImage("sprites/sling1.rock.png");
+        this.sling1 = loadImage("sling1.rock.png");
 
       }
       display(){
